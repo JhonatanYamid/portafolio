@@ -1,9 +1,10 @@
 const ProjectItem = ({ image, title = 'CA Shield', description = 'Proyecto en Wordpress', tags = ['Next.js', 'Laravel', 'GraphQL'] }) => {
     return (
-        <div className="flex flex-col">
-            <img className="image w-full" src={image} />
-
-            <div className='flex flex-row justify-between w-auto px-5 py-2'>
+        <div className="flex flex-col bg-white">
+            <div className="projectItem cursor-pointer relative">
+                <img className="image w-full" src={image} />
+            </div>
+            <div className='flex flex-row justify-between w-auto px-5 py-5'>
                 <div>
                     <div className="w-[80%] space-y-2 pb-3">
                         <h4 className='font-bold text-lg'>{title}</h4>
