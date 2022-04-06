@@ -65,7 +65,7 @@ const Projects = () => {
                 <ProjectItem
                     image={`/images/projects/citas-mascotas.png`}
                     title={'Administrador de citas para mascotas'}
-                    description={"Proyecto para el control de citas en veterinarias, , creado para practicar desarrollo con Framework React"}
+                    description={"Proyecto para el control de citas en veterinarias, creado para practicar desarrollo con Framework React"}
                     tags={['React','Local Storage' ,'Styled Components']} />
                 <ProjectItem
                     image={`/images/projects/gasto-semanal.png`}

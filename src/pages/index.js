@@ -8,7 +8,7 @@ import Skills from "../components/skills";
 export default function Home() {
   return (
     <Layout>
-      <div className="space-y-20">
+      <div className="space-y-10">
         <Jumbotron />
         <Brands />
         <About />

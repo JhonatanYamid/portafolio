@@ -3,25 +3,25 @@ import Image from 'next/image';
 const Jumbotron = () => {
     return (
         <div
-            className="flex flex-row w-full items-center pr-5"
+            className="flex flex-row w-full items-center"
         >
-            <div className='w-full flex justify-center'>
+            <div className='flex justify-center px-10'>
                 <img
-                    src="/images/foto1.png"
-                    className='w-auto h-[80vh]'
+                    src="/images/jhonatan-1.png"
+                    className='w-auto drop-shadow-md'
                     alt="logotipo"
                 />
             </div>
-            <div className='flex flex-col items-end space-y-3 font-bold pr-20'>
+            <div className='flex flex-col items-end space-y-1 font-bold pr-16'>
                 <h2 className='text-5xl text-slate-600 pb-5'>Hola! soy</h2>
-                <h1 className="text-8xl text-red-500 flex">
-                    <p>JHONATAN</p>
+                <h1 className="text-[5.7rem] text-red-600 flex">
+                    <p className='drop-shadow-md'>JHONATAN</p>
                     <svg version="1.0"
-                        className='w-6 pt-2' viewBox="0 0 277.000000 768.000000"
+                        className='w-6 pt-2 drop-shadow-md' viewBox="0 0 277.000000 768.000000"
                         preserveAspectRatio="xMidYMid meet">
 
                         <g transform="translate(0.000000,768.000000) scale(0.100000,-0.100000)"
-                            fill="#ef4444" stroke="none">
+                            fill="#dc2626" stroke="none">
                             <path d="M1125 7544 c-267 -21 -445 -83 -555 -194 -67 -67 -103 -133 -132
     -237 -19 -73 -21 -109 -26 -530 l-4 -453 1032 0 1031 0 -4 458 c-4 497 -6 519
     -64 640 -39 80 -140 179 -227 220 -75 36 -173 64 -288 82 -70 11 -661 22 -763
@@ -47,12 +47,12 @@ const Jumbotron = () => {
                         </g>
                     </svg>
                 </h1>
-                <div className='text-2xl italic font-semibold text-slate-400 mb-5 flex flex-col items-end border-4 border-transparent border-r-slate-400 border-y-none  pr-2 mr-5'>
+                <div className='text-2xl italic font-semibold text-slate-400 flex flex-col items-end border-4 border-transparent border-r-slate-400 border-y-none  pr-2 mr-5'>
                     <h4>Diseñador y Desarrollador Web</h4>
-                    <h4>en crecimiento</h4>
+                    <h4>en constante aprendizaje</h4>
                 </div>
 
-                <div className='flex flex-row space-x-2 mr-5'>
+                <div className='flex flex-row space-x-2 pt-5'>
                     <button className='rrss'>f</button>
                     <button className='rrss'>i</button>
                     <button className='rrss'>g</button>

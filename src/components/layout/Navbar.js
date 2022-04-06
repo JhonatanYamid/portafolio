@@ -5,7 +5,7 @@ import { responsiveNavbar, changeNavbackground } from '../helper';
 
 const Navbar = () => {
     return (
-        <nav className="flex justify-between px-10 py-2 items-center text-xs font-bold text-slate-700 bg-slate-100" id="navbar">
+        <nav className="flex justify-between px-10 pt-2 items-center text-xs font-bold text-slate-700 bg-slate-100 " id="navbar">
             <Link href="/">
                 <a className=''>
                     <Image
@@ -32,7 +32,7 @@ const Navbar = () => {
             </div>
             <div
                 id="menu"
-                className="lg:flex hidden space-x-7">
+                className="lg:flex hidden space-x-7 items-center">
                 <Link href="/">
                     <a className="nav-item text-red-500">
                         INICIO
@@ -54,7 +54,7 @@ const Navbar = () => {
                     </a>
                 </Link>
                 <Link href="/help">
-                    <a className="nav-item">
+                    <a className="nav-item btn-primary text-xs">
                         CONTACTO
                     </a>
                 </Link>
