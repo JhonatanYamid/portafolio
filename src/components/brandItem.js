@@ -1,13 +1,7 @@
-const BrandItem = () => {
+const BrandItem = ({ image }) => {
     return (
-        <div className="p-6 max-w-sm mx-auto bg-white rounded-xl flex items-center space-x-4 shadow-xl">
-            <div className="shrink-0">
-                <img className="h-12 w-12" src="/images/whatsapp.png" alt="hola" />
-            </div>
-            <div>
-                <div className="text-xl font-medium text-black">Empresa gramde</div>
-                <p className="text-slate-500 text-sm">Empresa grande</p>
-            </div>
+        <div className="p-3 bg-white rounded-xl flex items-center justify-center space-x-4 shadow-xl mx-4 h-14">
+            <img className="h-full w-auto" src={'/images/logos/' + image} alt="logo" />
         </div>
     );
 }

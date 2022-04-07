@@ -14,8 +14,10 @@
     "postcss": "^8.4.12",
     "react": "18.0.0",
     "react-dom": "18.0.0",
+    "react-slick": "^0.28.1",
     "react-snuggle": "^1.2.3",
-    "tailwindcss": "^3.0.23"
+    "tailwindcss": "^3.0.23",
+    "tiny-slider-react": "^0.5.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",

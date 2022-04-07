@@ -6,6 +6,7 @@ import Projects from "../components/projects";
 import Skills from "../components/skills";
 
 export default function Home() {
+  
   return (
     <Layout>
       <div className="space-y-10">
@@ -16,6 +17,6 @@ export default function Home() {
         <Projects />
       </div>
 
-    </Layout>
+    </Layout >
   )
 }
