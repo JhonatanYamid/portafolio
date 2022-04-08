@@ -1,12 +1,12 @@
 {
-    "theme_color": "#14b8a6",
-    "background_color": "#009a8c",
+    "theme_color": "#f1f5f9",
+    "background_color": "#f1f5f9",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "AlCostal",
-    "short_name": "AlCostal",
-    "description": "AlCostal, la forma sencilla de comprarle directamente a los agricultores de nuestra regi\u00f3n",
+    "name": "Jhonatan Yamid",
+    "short_name": "JhonatanYamid",
+    "description": "Diseñador y Desarrollador Web en constante aprendizaje",
     "icons": [
         {
             "src": "/icon-192x192.png",

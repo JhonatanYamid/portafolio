@@ -9,7 +9,7 @@ export default function Home() {
   
   return (
     <Layout>
-      <div className="space-y-10">
+      <div className="space-y-16 pb-10">
         <Jumbotron />
         <Brands />
         <About />

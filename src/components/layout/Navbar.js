@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react'
-import { responsiveNavbar, changeNavbackground } from '../helper';
+import { responsiveNavbar } from '../helper';
 
 const Navbar = () => {
     return (
-        <nav className="flex justify-between px-10 pt-2 items-center text-xs font-bold text-slate-700 bg-slate-100 " id="navbar">
+        <nav className="flex justify-between flex-wrap px-10 pt-2 items-center text-xs font-bold text-slate-700 bg-slate-100 " id="navbar">
             <Link href="/">
                 <a className=''>
                     <Image
@@ -22,7 +22,7 @@ const Navbar = () => {
                     onClick={() => responsiveNavbar()}
                     className="flex items-center px-3 py-2 border rounded">
                     <svg
-                        className="fill-current h-3 w-3"
+                        className="fill-current w-5"
                         viewBox="0 0 20 20"
                     >
                         <title>Menu</title>
@@ -32,32 +32,29 @@ const Navbar = () => {
             </div>
             <div
                 id="menu"
-                className="lg:flex hidden space-x-7 items-center">
-                <Link href="/">
-                    <a className="nav-item text-red-500">
-                        INICIO
-                    </a>
-                </Link>
-                <Link href="/shop">
-                    <a className="nav-item">
+                className="md:flex hidden py-5 md:py-0">
+                <div className='flex items-center flex-row space-x-7'>
+                    <Link href="/">
+                        <a className="nav-item text-red-500">
+                            INICIO
+                        </a>
+                    </Link>
+                    <a className="nav-item" href='#about'>
                         ACERCA DE
                     </a>
-                </Link>
-                <Link href="/about">
+                    {/* <Link href="/about">
                     <a className="nav-item">
                         EXPERIENCIA
                     </a>
-                </Link>
-                <Link href="/help">
-                    <a className="nav-item">
+                </Link> */}
+                    <a className="nav-item" href='#portafolio'>
                         PORTAFOLIO
                     </a>
-                </Link>
-                <Link href="/help">
-                    <a className="nav-item btn-primary text-xs">
+                    <a className="nav-item btn-primary text-xs" href='https://api.whatsapp.com/send?phone=5744334016&text=Hola%20buen%20d%C3%ADa' target="_blank" rel="noopener noreferrer">
                         CONTACTO
                     </a>
-                </Link>
+                </div>
+
             </div>
         </nav>
     );

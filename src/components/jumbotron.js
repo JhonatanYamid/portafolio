@@ -2,22 +2,20 @@ import Image from 'next/image';
 
 const Jumbotron = () => {
     return (
-        <div
-            className="flex flex-row w-full items-center"
-        >
-            <div className='flex justify-center px-10'>
+        <div className="flex flex-row w-full items-center justify-center flex-wrap md:flex-nowrap space-y-5 space-x-10">
+            <div className='flex justify-center px-10 w-full md:w-1/2'>
                 <img
                     src="/images/jhonatan-1.png"
                     className='w-auto drop-shadow-md'
                     alt="logotipo"
                 />
             </div>
-            <div className='flex flex-col items-end space-y-1 font-bold pr-16'>
-                <h2 className='text-5xl text-slate-600 pb-5'>Hola! soy</h2>
-                <h1 className="text-[5.7rem] text-red-600 flex">
+            <div className='flex flex-col items-left md:items-end font-bold px-8 md:pr-16 w-full md:w-1/2'>
+                <h2 className='text-5xl text-slate-600 pb-3'>Hola! soy</h2>
+                <div className="text-6xl md:text-[5.7rem] text-red-600 flex">
                     <p className='drop-shadow-md'>JHONATAN</p>
                     <svg version="1.0"
-                        className='w-6 pt-2 drop-shadow-md' viewBox="0 0 277.000000 768.000000"
+                        className='w-4 md:w-6 pt-2 drop-shadow-md' viewBox="0 0 277.000000 768.000000"
                         preserveAspectRatio="xMidYMid meet">
 
                         <g transform="translate(0.000000,768.000000) scale(0.100000,-0.100000)"
@@ -46,20 +44,12 @@ const Jumbotron = () => {
     265 l-48 19 0 -293z"/>
                         </g>
                     </svg>
-                </h1>
-                <div className='text-2xl italic font-semibold text-slate-400 flex flex-col items-end border-4 border-transparent border-r-slate-400 border-y-none  pr-2 mr-5'>
+                </div>
+                <div className='flex flex-col md:items-end text-2xl italic font-semibold text-slate-400  border-4 border-transparent md:border-r-slate-400 border-y-none pr-2 mr-5'>
                     <h4>Diseñador y Desarrollador Web</h4>
                     <h4>en constante aprendizaje</h4>
                 </div>
-
-                <div className='flex flex-row space-x-2 pt-5'>
-                    <button className='rrss'>f</button>
-                    <button className='rrss'>i</button>
-                    <button className='rrss'>g</button>
-                </div>
             </div>
-
-
         </div>
     );
 }

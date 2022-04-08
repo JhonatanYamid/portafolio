@@ -21,3 +21,6 @@
     rgba(255, 255, 255, 0.9) 100%
   );
 }
+.slick-prev,.slick-next {
+  display: none !important;
+}

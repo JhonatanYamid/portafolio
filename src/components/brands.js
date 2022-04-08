@@ -35,9 +35,9 @@ const Brands = () => {
 
     }
     return (
-        <div className="flex flex-col items-center justify-center text-3xl font-bold text-slate-600">
+        <div className="flex flex-col items-center justify-center text-3xl font-bold text-slate-600 px-16">
             <h2>Empresas con las que he trabajado</h2>
-            <div className='w-full px-10 space-x-10 pt-8'>
+            <div className='w-full space-x-15 pt-8'>
                 <Slider {...settings}>
                     <BrandItem image={'wenco-logo.png'}/>
                     <BrandItem image={'alsak-logo.png'}/>
