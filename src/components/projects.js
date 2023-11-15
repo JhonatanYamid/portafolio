@@ -13,7 +13,7 @@ const Projects = () => {
                     description={'Proyecto personal pensado para generar un enlace directo entre el Agricultor y el consumidor (En Construcción)'}
                     tags={['Laravel', 'Next.js', 'GraphQL', 'LottieFiles','Tailwind', 'MySql']} 
                     git={'https://github.com/JhonatanYamid/alcostal.git'}
-                    page={'https://alcostal.vercel.app/'}
+                    page={''}
                     />
                 <ProjectItem
                     image={`/images/projects/kendy.png`}
@@ -27,14 +27,14 @@ const Projects = () => {
                     title={'CA Shield'}
                     description={'Landing page para la empresa CA Shield'}
                     tags={['WordPress', 'CSS3']}
-                    page={'https://cashieldgroup.com/'}
+                    page={''}
                     />
                 <ProjectItem
                     image={`/images/projects/alsak.png`}
                     title={'Alsak'}
                     description={'Landing page para la empresa Alsak'}
                     tags={['WordPress', 'CSS3']}
-                    page={'http://alsak.com.co/'}
+                    page={''}
                     />
                 <ProjectItem
                     image={`/images/projects/cripto.png`}
@@ -49,7 +49,7 @@ const Projects = () => {
                     title={'Pintuco Santa Lucia'}
                     description={"E-Commerce para la empresa Pintuco Santa Lucia, con integración a pasarela de pagos 'PayU'"}
                     tags={['WordPress', 'JavaScript', 'CSS3', 'PayU']}
-                    page={'https://tiendadepinturassantalucia.com/'}
+                    page={''}
                     />
                 <ProjectItem
                     image={`/images/projects/wenco.png`}
@@ -71,7 +71,7 @@ const Projects = () => {
                     description={'Proyecto univesitario construido para practica de PHP estructurado'}
                     tags={['PHP', 'MySql', 'MVC', 'Bootstrap']}
                     git={'https://github.com/JhonatanYamid/anten.git'}
-                    page={'https://anten-co.herokuapp.com/'}
+                    page={''}
                     />
                 <ProjectItem
                     image={`/images/projects/merking.png`}
@@ -79,7 +79,7 @@ const Projects = () => {
                     description={'Proyecto personal de e-commerce para Bazar de venta de productos'}
                     tags={['PHP', 'MySql', 'MVC', 'Bootstrap', 'REST']}
                     git={'https://github.com/JhonatanYamid/merking.git'}
-                    page={'http://merking.rf.gd/'}
+                    page={''}
                     />
                 <ProjectItem
                     image={`/images/projects/vibeard.png`}
