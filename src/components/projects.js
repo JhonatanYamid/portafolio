@@ -105,8 +105,6 @@ const Projects = () => {
                     git={'https://github.com/JhonatanYamid/calculadora_presupuesto.git'}
                     page={'https://jhonatanyamid.github.io/calculadora_presupuesto/'}
                     />
-
-
             </Snuggle>
         </div>
 
