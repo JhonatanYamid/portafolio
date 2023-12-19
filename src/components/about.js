@@ -6,7 +6,7 @@ const About = () => {
             <div className='flex flex-col w-full md:w-3/5 text-slate-600 space-y-3'>
                 <div>
                     <h3 className='font-bold text-3xl'>Experiencia</h3>
-                    <h2 className='font-bold text-6xl text-red-500 pb-3'>+3 Años</h2>
+                    <h2 className='font-bold text-6xl text-red-500 pb-3'>+4 Años</h2>
                     <h3 className='font-bold text-xl'>En areas tales como CRM, E-Commerce, Inmobiliarias, Automatización de procesos etc.</h3>
                 </div>
                 <div className=''>
