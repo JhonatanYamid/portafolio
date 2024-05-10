@@ -46,8 +46,7 @@ const Jumbotron = () => {
                     </svg>
                 </div>
                 <div className='flex flex-col md:items-end text-2xl italic font-semibold text-slate-400  border-4 border-transparent md:border-r-slate-400 border-y-none pr-2 mr-5'>
-                    <h4>Diseñador y Desarrollador Web</h4>
-                    <h4>en constante aprendizaje</h4>
+                    <h4>Instructor, Diseñador, Analista y Desarrollador Web en constante aprendizaje</h4>
                 </div>
             </div>
         </div>

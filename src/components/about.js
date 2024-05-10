@@ -6,8 +6,9 @@ const About = () => {
             <div className='flex flex-col w-full md:w-3/5 text-slate-600 space-y-3'>
                 <div>
                     <h3 className='font-bold text-3xl'>Experiencia</h3>
-                    <h2 className='font-bold text-6xl text-red-500 pb-3'>+4 Años</h2>
+                    <h2 className='font-bold text-6xl text-red-500 pb-3'>+5 Años</h2>
                     <h3 className='font-bold text-xl'>En areas tales como CRM, E-Commerce, Inmobiliarias, Automatización de procesos etc.</h3>
+                    <h3 className='font-bold text-xl'>Adicional experiencia como formador en la escuela de código C13 y en diversas industrias.</h3>
                 </div>
                 <div className=''>
                     <ul className=' list-disc space-y-2 px-5 font-normal text-slate-500 text-sm leading-6 py-5'>
@@ -26,7 +27,7 @@ const About = () => {
                     </ul>
                 </div>
                 <div className='flex justify-left'>
-                    <a className="rounded px-5 btn-primary text-xl cursor-pointer" href="https://drive.google.com/file/d/1ImOP699a_sxsmjqCxFQMjImGAoohyRpm/view?usp=sharing/" target="_blank" rel="noopener noreferrer">
+                    <a className="rounded px-5 btn-primary text-xl cursor-pointer" href="https://drive.google.com/file/d/1wdHVbDA-n09jnVO-F_HiDt6mxBP4xTGS/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         Descargar CV
                     </a>
                 </div>
